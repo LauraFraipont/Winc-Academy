@@ -1,0 +1,7 @@
+* {margin:10px;}
+main{color:red;}
+h1 {border:5px solid blue; padding-left: 5px; padding-top: 5px; padding-bottom: 5px;}
+h2 {background-color:aqua; padding: 5px;} 
+h1 {margin: 0 auto; width: 25% ;}
+footer {margin:0 auto;}
+li {display: inline;}
