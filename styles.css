@@ -1,7 +1,23 @@
+
+body { background-color:bisque;
+}
 * {margin:10px;}
-main{color:red;}
+main{color:chocolate;}
 h1 {border:5px solid blue; padding-left: 5px; padding-top: 5px; padding-bottom: 5px;}
 h2 {background-color:aqua; padding: 5px;} 
 h1 {margin: 0 auto; width: 25% ;}
 footer {margin:0 auto;}
 li {display: inline;}
+
+@media (max-width: 500px) {
+    body {
+            background-color: blue ; font-size: 20px;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    main {color:coral; font-size: 15px;}
+
+        
+}
