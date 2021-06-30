@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<nav>
+    <a href="index.html">
+        <h1>terug naar de homepage</h1>
+
+    </a>
+
+</nav>
+
+<body>
+    <form name="contact" method="POST" data-netlify="true">
+
+        <p>
+            <label>Naam: <input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label>Emailadres: <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label>Tel: <input type="text" name="Tel" /></label>
+        </p>
+
+        <p>
+            <label>leeftijd: <input type="number" name="leeftijd" /></label>
+        </p>
+
+        <p>geslacht:</p>
+
+        <p>
+            <input type="radio" id="man" name="geslacht" value="man">
+            <label for="man">man</label><br>
+            <input type="radio" id="vrouw" name="geslacht" value="vrouw">
+            <label for="vrouw">vrouw</label><br>
+            <input type="radio" id="anders" name="geslacht" value="anders">
+            <label for="anders">anders</label><br>
+
+        </p>
+
+        <p>favoriete cuisine:</p>
+        <input type="checkbox" id="favoriete cuisine1" name="cuisine1" value="frans">
+        <label for="cuisine1"> frans</label><br>
+        <input type="checkbox" id="favoriete cuisine2" name="cuisine2" value="spaans">
+        <label for="cuisine2"> italiaans</label><br>
+        <input type="checkbox" id="favoriete cuisine3" name="cuisine3" value="spaans">
+        <label for="cuisine3"> spaans</label><br>
+        <input type="checkbox" id="favoriete cuisine4" name="cuisine4" value="arabisch">
+        <label for="cuisine4">arabisch</label>
+
+        <p>favoriete kleur schort:</p>
+        <p>
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor">
+
+        </p>
+
+        <p>biografie:</p>
+        <p>
+            <textarea name="biografie"></textarea>
+
+        </p>
+
+
+        <p>upload je laatste recept:</p>
+
+        <p><label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+        </p>
+
+        <p><label for="website">je recepten website:</label>
+            <input type="url" id="website name=">
+        </p>
+
+
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </p>
+
+    </form>
+
+
+</body>
+
+</html>
